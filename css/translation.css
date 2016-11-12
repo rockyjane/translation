@@ -1,0 +1,637 @@
+﻿@import url(../css/reset.css);
+body{
+        background:#f3f4e5;
+	color:#252525;
+	font-family:"微軟正黑體", "華康中圓體", "Tempus Sans ITC", "Adobe 黑体 Std R", "Lucida Sans Unicode", "Letter Gothic Std", sans-serif;
+}
+#WRAPPER{	
+    margin: 50px auto 0px auto;
+	width:745px;
+}
+#WRAPPER #HEADER{
+	text-align:center;
+}
+#WRAPPER #BANNER{
+    width: 745px;      
+    position: relative;
+    overflow: hidden;
+	margin-bottom: 40px;
+}
+#WRAPPER #BANNER .flexslider{
+    height: 230px;     
+}
+
+#WRAPPER #BANNER .flexslider .scroll{
+    position: absolute;
+    width: 9999px;     
+    height: 100%;
+}
+#WRAPPER #BANNER .flexslider .scroll li{
+    float: left;       
+    height: 100%;
+}
+    
+#WRAPPER #BANNER .flexslider .scroll img{
+    height: 100%;
+} 
+#WRAPPER #BANNER .abgne-control{
+    color: #fff;
+    font-size: 9px;
+}
+#WRAPPER  #BANNER .abgne-control .arrows{
+    font-size: 30px;
+}
+#WRAPPER #BANNER .abgne-control .arrows li{
+    bottom: 100px;
+    cursor: pointer;
+    color: #fff;
+}
+#WRAPPER #BANNER .abgne-control .arrows li:hover{
+    color:#757575;
+}
+#WRAPPER #BANNER .abgne-control .arrows .prev{
+    position: absolute;
+    left: 5px;
+}
+#WRAPPER #BANNER .abgne-control .arrows .next{
+    position: absolute;
+    left: 725px;
+}
+#WRAPPER #BANNER .abgne-control .numbers li{
+    bottom: 5px;
+    padding: 0px 2px;
+    line-height:10px;
+    cursor: pointer;
+    background: #999;
+    color: #999;
+    border-radius: 50px;
+}
+#WRAPPER #BANNER .abgne-control .numbers li.current{
+    background: #fff;
+    color:#fff;
+}
+#WRAPPER #BANNER .abgne-control .numbers li.hover{
+    background: #fff;
+    color:#fff;
+}
+#WRAPPER #BANNER .abgne-control .numbers .flexslider_control_1{
+    position: absolute;
+    left: 345px;
+}
+#WRAPPER #BANNER .abgne-control .numbers .flexslider_control_2{
+    position: absolute;
+    left: 370px;
+}
+#WRAPPER #BANNER .abgne-control .numbers .flexslider_control_3{
+    position: absolute;
+    left: 395px;
+}
+#WRAPPER #SECTION{
+	width: 745px;
+	background: url(../images/bg.png) no-repeat;
+}
+#WRAPPER #SECTION >*{
+	overflow:hidden;
+}
+#WRAPPER #SECTION h2{
+	font-size: 16px;
+    font-weight: bold;
+    padding: 8px 0px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid;
+}
+#WRAPPER #SECTION p{
+	font-size: 12px;
+    color: #252525;
+    padding: 12px 0px;
+    text-align: justify;
+}
+#WRAPPER #SECTION .pic{
+	width: 282px;
+    height: 137px;
+}
+#WRAPPER #SECTION .content{
+	display: inline-block;
+    width: 282px;
+    margin-right: 20px;
+}
+#WRAPPER #SECTION .aside{
+    border-bottom: 2px solid;
+    margin-bottom: 25px;
+}
+#WRAPPER #SECTION .aside .left{
+	float: left;
+}
+#WRAPPER #SECTION .aside .right{
+	float: right;
+}
+#WRAPPER #SECTION .aside .right .friend a{
+	display: block;
+    width: 110px;
+    height: 53px;
+    border-bottom: 2px solid #999;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+#WRAPPER #SECTION .aside .right .friend a img.one{
+	padding-top: 10px;
+}
+#WRAPPER #SECTION .aside .right .friend a img.four{
+	padding-left: 27px;
+}
+#WRAPPER #SECTION .center{
+	padding: 80px 100px 100px 100px;
+}
+#WRAPPER #SECTION .center .left{
+	float: left;
+    background: url(../images/INDEX_section_5.png) no-repeat;
+    width: 137px;
+    height: 118px;
+    margin-right: 120px;
+}
+#WRAPPER #SECTION .center .right >*{
+	text-align: left;
+}
+#WRAPPER #SECTION .center .right h3{
+	font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#WRAPPER #SECTION .map{
+	background: url(../images/INDEX_map.jpg) no-repeat;
+    height: 420px;
+    text-indent: 260px;
+    line-height: 700px;
+}
+#WRAPPER #HEADER h2{
+	text-shadow: 5px 5px 3px #999;
+}
+#WRAPPER #NEW{
+	background: url(../images/bg.png) no-repeat;
+    text-align: justify;
+}
+#WRAPPER #NEW h3{
+	font-size: 14px;
+    font-weight: bold;
+    border-bottom: 2px solid;
+    padding-bottom: 8px;
+    margin: 10px 0px;
+}
+#WRAPPER #NEW h6{
+	font-size: 12px;
+    font-style: oblique;
+	padding:1px 0px 0px 218px;
+}
+#WRAPPER #NEW .aside{
+	overflow:hidden;
+}
+#WRAPPER #NEW .aside .left{
+	float: left;
+}
+#WRAPPER #NEW .aside .left .PRE{
+	background: url(../images/NEW_section_03.png) no-repeat;
+    width: 408px;
+    height: 256px;    
+}
+#WRAPPER #NEW .aside .left .PRE h5{
+	font-size: 14px;
+    width: 392px;
+	padding:34px 0px 0px 8px;
+    line-height: 30px;
+    text-indent: 37px;
+    letter-spacing: 4px;
+}
+#WRAPPER #NEW .aside .left .PRE .day{
+	font-size: 14px;
+    line-height: 24px;
+    text-indent: 191px;
+    letter-spacing: 11px;
+}
+#WRAPPER #NEW .aside .right{
+	float: right;
+}
+#WRAPPER #NEW .aside .right h3 a{
+	display: inline-block;
+    text-decoration: none;
+    color: #999;
+    font-size: 12px;
+    font-style: oblique;
+	margin:0px 10px 0px 190px;
+}
+#WRAPPER #NEW .aside .right h3 a:hover{
+	text-decoration: underline;
+}
+#WRAPPER #NEW .aside .right .content >*{
+	overflow: hidden;
+    margin-bottom: 10px;
+}
+#WRAPPER #NEW .aside .right .content .the{
+	border-top: 2px solid #999;
+    border-bottom: 2px solid #999;
+    padding: 10px 0px;
+}
+#WRAPPER #NEW .aside .right .content div >*{
+	border: none;
+    font-weight: bold;
+}
+#WRAPPER #NEW .aside .right .content div h3{
+	width: 190px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+#WRAPPER #NEW .section{
+	height: 490px;
+        overflow-y: scroll;
+        margin-bottom: 30px;
+}
+#WRAPPER #NEW .section .content h3{
+	border: none;
+}
+
+#WRAPPER #NEW .section .content p{
+	font-size: 14px;
+        margin-bottom: 30px;
+}
+#WRAPPER #ABOUT_US{
+	background: url(../images/bg.png) no-repeat;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: justify;
+}
+#WRAPPER #ABOUT_US >*{
+	display: inline-block;
+}
+#WRAPPER #ABOUT_US h3{
+	padding-bottom: 8px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid;
+    font-weight: bold;
+}
+#WRAPPER #ABOUT_US p{
+	margin-bottom: 15px;
+    line-height: 24px;
+}
+#WRAPPER #ABOUT_US .aside_left{
+	width: 476px;
+}
+#WRAPPER #ABOUT_US img.section{
+	float: right;
+    margin-left: 14px;
+}
+#WRAPPER #ABOUT_US .aside_right{
+	float: right;
+    width: 210px;
+}
+#WRAPPER #PRODUCTS{
+	background: url(../images/bg.png) no-repeat;
+    font-size: 12px;
+}
+#WRAPPER #PRODUCTS .page .content{
+	border-top: 2px solid;
+    border-bottom: 2px solid;
+    margin-top: 50px;
+    padding: 10px 23px;
+	font-size: 0px;
+}
+#WRAPPER #PRODUCTS .page .content >*{
+	display:inline-block;
+	width:233px;
+	height:233px;
+	overflow:hidden;
+}
+#WRAPPER #PRODUCTS .page p{
+	text-align: right;
+    font-style: oblique;
+    padding-right: 25px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+#WRAPPER #PRODUCTS .page p a{
+	text-decoration: none;
+    color: #999;
+}
+#WRAPPER #PRODUCTS .page p a:hover{
+	text-decoration: underline;
+    color: #252525;
+}
+#WRAPPER #PRODUCTS h6{
+	text-align: center;
+    margin-top: 80px;
+    padding-bottom: 100px;
+}
+#WRAPPER #PRODUCTS .page .content .book:hover .bgbox{
+	transition:.5s;
+    margin-top:172px;
+}
+#WRAPPER #PRODUCTS .page .content .book .bgbox{
+	background: #252525;
+    height: 61px;
+    margin-top: 233px;
+    padding: 13px;
+	opacity: .43;
+}
+#WRAPPER #PRODUCTS .page .content .book .bgbox:hover{
+	opacity: 1;
+    transition:.25s;
+}
+#WRAPPER #PRODUCTS .page .content .book .bgbox a{
+	font-size:12px;
+	color: #fff;
+    display: inline-block;
+    width: 205px;
+    text-decoration: none;
+}
+#WRAPPER #PRODUCTS .page .content .book .bgbox a h3{
+	float: right;
+}
+#WRAPPER #PRODUCTS .page .content .book_first{
+	background:url(../images/PRODUCTS_PAGE_1_1.jpg) no-repeat;
+}
+#WRAPPER #PRODUCTS .page .content #one{
+	background:url(../images/PRODUCTS_PAGE_1_2.jpg) no-repeat;
+}
+#WRAPPER #PRODUCTS .page .content #two{
+	background:url(../images/PRODUCTS_PAGE_1_3.jpg) no-repeat;
+}
+#WRAPPER #PRODUCTS .page .content #three{
+	background:url(../images/PRODUCTS_PAGE_1_4.jpg) no-repeat;
+}
+#WRAPPER #PRODUCTS .page .content #four{
+	background:url(../images/PRODUCTS_PAGE_1_5.jpg) no-repeat;
+}
+#WRAPPER #PRODUCTS .page .content #five{
+	background:url(../images/PRODUCTS_PAGE_1_6.jpg) no-repeat;
+}
+#WRAPPER #PRODUCTS .page .content #six{
+	background:url(../images/PRODUCTS_PAGE_2_1.jpg) no-repeat;
+}
+#WRAPPER #PRODUCTS .page .content #seven{
+	background:url(../images/PRODUCTS_PAGE_2_2.jpg) no-repeat;
+}
+#WRAPPER #PRODUCTS .page .content #eight{
+	background:url(../images/PRODUCTS_PAGE_2_3.jpg) no-repeat;
+}
+#WRAPPER #PRODUCTS .page .content #nine{
+	background:url(../images/PRODUCTS_PAGE_2_4.jpg) no-repeat;
+}
+#WRAPPER #PRODUCTS .page .content #ten{
+	background:url(../images/PRODUCTS_PAGE_2_5.jpg) no-repeat;
+}
+#WRAPPER #PRODUCTS .page .content #eleven{
+	background:url(../images/PRODUCTS_PAGE_2_6.jpg) no-repeat;
+}
+#WRAPPER #PRODUCTS .page .content #twelve{
+	background:url(../images/PRODUCTS_PAGE_3_1.jpg) no-repeat;
+}
+#WRAPPER #PRODUCTS .page .content #thirteen{
+	background:url(../images/PRODUCTS_PAGE_3_2.jpg) no-repeat;
+}
+#WRAPPER #PRODUCTS .page .content #fourteen{
+	background:url(../images/PRODUCTS_PAGE_3_3.jpg) no-repeat;
+}
+#WRAPPER #PRODUCTS .page .content #fifteen{
+	background:url(../images/PRODUCTS_PAGE_3_4.jpg) no-repeat;
+}
+#WRAPPER #PRODUCTS .page .content #sixteen{
+	background:url(../images/PRODUCTS_PAGE_3_5.jpg) no-repeat;
+}
+#WRAPPER #PRODUCTS .page .content #seventeen{
+	background:url(../images/PRODUCTS_PAGE_3_6.jpg) no-repeat;
+}
+#WRAPPER #HEADER a{
+	text-decoration: none;
+    color: #999;
+}
+#WRAPPER #HEADER a:hover{
+	text-decoration:underline;
+}
+#WRAPPER #HISTORY{
+	background: url(../images/bg.png) no-repeat;
+	font-size:14px;
+}
+#WRAPPER #HISTORY h2{
+	margin: 20px 0px 5px 0px;
+	font-weight:bold;
+}
+#WRAPPER #HISTORY ul{
+	overflow-y:scroll;
+	height:490px;
+	border-top:2px solid;
+}
+#WRAPPER #HISTORY ul li{
+	overflow: hidden;
+    padding: 15px 0px;
+    border-top: 2px solid #999;
+}
+#WRAPPER #HISTORY ul li:hover{
+	background:#e7cf2e;
+}
+#WRAPPER #HISTORY ul li:first-child{
+	border: none;
+}
+#WRAPPER #HISTORY ul li >*{
+	cursor:default;
+	font-weight:bold;
+	line-height: 26px;
+}
+#WRAPPER #HISTORY ul li p{
+	float: left;
+    width: 518px;
+}
+#WRAPPER #HISTORY ul li h6{
+	float: right;
+    font-size: 12px;
+    font-style: oblique;
+}
+#WRAPPER #TRANSLATION{
+	border-top: 2px solid;
+    margin-top: 50px;
+    padding: 25px 0px;
+    text-align: justify;
+}
+#WRAPPER #TRANSLATION h1{
+	margin-bottom: 15px;
+}
+#WRAPPER #TRANSLATION h3{
+	text-align: center;
+    margin-bottom: 25px;
+}
+#WRAPPER #TRANSLATION h6{
+	color: #999;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    border-bottom: 2px solid;
+}
+#WRAPPER #TRANSLATION p{
+	margin-bottom: 25px;
+}
+#WRAPPER #TRANSLATION .book{
+	overflow: hidden;
+    margin-bottom: 25px;
+}
+#WRAPPER #TRANSLATION .book .left{
+	float: left;
+}
+#WRAPPER #TRANSLATION .book .right{
+	float: right;
+    width: 390px;
+}
+#WRAPPER #TRANSLATION .book .right h6{
+	text-align: left;
+    border: none;
+    font-size: 16px;
+    margin: 0px;
+}
+#WRAPPER #TRANSLATION .book .right p{
+	padding: 15px 0px;
+}
+#WRAPPER #TRANSLATION .content{
+	clear: both;
+    border-top: 2px solid #999;
+    border-bottom: 2px solid #999;
+    padding: 25px 0px;
+    margin-bottom: 20px;
+}
+#WRAPPER #TRANSLATION .content .section{
+	width: 453px;
+    margin: 0 auto;
+}
+#WRAPPER #TRANSLATION .content .section div{
+	height: 277px;
+    margin-bottom: 15px;
+}
+#WRAPPER #TRANSLATION .content .section .BNGJ_1{
+	background: url(../images/PRODUCTS_BNGJ_2.jpg) no-repeat;
+}
+#WRAPPER #TRANSLATION .content .section .BNGJ_2{
+	background: url(../images/PRODUCTS_BNGJ_3.jpg) no-repeat;
+}
+#WRAPPER #TRANSLATION .content .section .BNGJ_3{
+	background: url(../images/PRODUCTS_BNGJ_4.jpg) no-repeat;
+}
+#WRAPPER #TRANSLATION .content .section .BNGJ_4{
+	background: url(../images/PRODUCTS_BNGJ_5.jpg) no-repeat;
+}
+#WRAPPER #TRANSLATION .content .section .BNGJ_5{
+	background: url(../images/PRODUCTS_BNGJ_6.jpg) no-repeat;
+}
+#WRAPPER #TRANSLATION .content .section .BNGJ_6{
+	background: url(../images/PRODUCTS_BNGJ_7.jpg) no-repeat;
+}
+#WRAPPER #TRANSLATION .content .section .BNGJ_7{
+	background: url(../images/PRODUCTS_BNGJ_8.jpg) no-repeat;
+}
+#WRAPPER #TRANSLATION .content .section .BNNEWEN_1{
+	background: url(../images/PRODUCTS_BNNEWEN_2.jpg) no-repeat;
+}
+#WRAPPER #TRANSLATION .content .section .BNCHFONT_1{
+	background: url(../images/PRODUCTS_BNCHFONT_2.jpg) no-repeat;
+}
+#WRAPPER #TRANSLATION .content .section .CN300_1{
+	background: url(../images/PRODUCTS_CN300_2.jpg) no-repeat;
+}
+#WRAPPER #TRANSLATION .content .section .STYLEEN_1{
+	background: url(../images/PRODUCTS_STYLEEN_2.jpg) no-repeat;
+}
+#WRAPPER #TRANSLATION .content .section .STYLEEN_2{
+	background: url(../images/PRODUCTS_STYLEEN_3.jpg) no-repeat;
+}
+#WRAPPER #TRANSLATION .content .section .STYLEEN_3{
+	background: url(../images/PRODUCTS_STYLEEN_4.jpg) no-repeat;
+}
+#WRAPPER #TRANSLATION .content .section .CHFONT_1{
+	background: url(../images/PRODUCTS_CHFONT_2.jpg) no-repeat;
+}
+#WRAPPER #TRANSLATION .content .section .KOREA_1{
+	background: url(../images/PRODUCTS_KOREA_2.png) no-repeat;
+}
+#WRAPPER #FOOTER{
+    width: 745px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    padding: 20px 0px;
+    margin-bottom: 80px;
+}
+#WRAPPER #FOOTER h6{
+	font-size: 12px;
+    font-weight: bolder;
+    text-align: center;
+}
+#BOX{
+	position: fixed;
+    width: 100px;
+    left: 50%;
+    top: 65px;
+    margin-left: -495px;
+}
+#BOX .logo{
+	margin: 0px 0px 30px 26px;
+}
+#BOX .nav{
+	width: 80px;
+    height: 170px;
+    margin: 0px auto;
+    text-align: center;
+}
+#BOX .nav li{
+	background: url(../images/BOX_nav.png) no-repeat bottom;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    margin: 0 auto;
+}
+#BOX .nav li:hover{
+	background-position:top;
+}
+#BOX .nav li:hover .menu_down{
+	display:block;
+}
+#BOX .nav li .menu_down{
+	display: none;
+    position: absolute;
+    left: -27px;
+    top: 25px;
+}
+#BOX .nav li .menu_down li{
+	width: 78px;
+    margin-top: 15px;
+    background: none;
+}
+#BOX .nav li .menu_down li a{
+	display: block;
+    text-decoration: none;
+    color: #252525;
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom:10px;
+}
+
+#BOX .nav li .menu_down li a .solid:hover{
+	border-left: 4px solid;
+    border-right: 4px solid;
+    color: #39c;
+}
+#BOX .contact_us{
+	width: 90px;
+    margin: 0px auto 10px auto;
+}
+#BOX .contact_us h3{
+	font-size: 14px;
+    text-align: center;
+    border-top: 1px solid;
+    padding: 10px 0px;
+    text-shadow: 5px 5px 3px #999;
+}
+#BOX .icon{
+	display:block;
+	background: url(../images/BOX_fb.jpg) no-repeat top;
+    width: 32px;
+    height: 32px;
+    margin: 0px auto;
+    cursor: pointer;
+}
+#BOX .icon:hover{
+	background-position: bottom;
+}
